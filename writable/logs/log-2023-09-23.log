@@ -1,0 +1,431 @@
+CRITICAL - 2023-09-23 02:09:07 --> Class "App\Controllers\App\Models\MusicModel" not found
+in APPPATH\Controllers\MusicController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MusicController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 02:10:18 --> Class "App\Controllers\App\Models\MusicModel" not found
+in APPPATH\Controllers\MusicController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MusicController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 02:10:39 --> Class "App\Controllers\App\Models\PlaylistModel" not found
+in APPPATH\Controllers\MusicController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MusicController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 02:12:53 --> syntax error, unexpected token "("
+in APPPATH\Controllers\MusicController.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\musicplayer\\app\\Controllers\\MusicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MusicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MusicController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\MusicController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 02:13:07 --> Undefined variable $data
+in APPPATH\Controllers\MusicController.php on line 19.
+ 1 APPPATH\Controllers\MusicController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\musicplayer\\app\\Controllers\\MusicController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 02:13:23 --> Invalid file: "MusicView.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('MusicView.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('MusicView', [], true)
+ 3 APPPATH\Controllers\MusicController.php(19): view('MusicView')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 07:30:09 --> syntax error, unexpected end of file
+in APPPATH\Config\Routes.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(787): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:08:37 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:09:12 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\MusicController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:09:49 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:11:50 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:14:55 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:15:31 --> Call to a member function move() on null
+in APPPATH\Controllers\MusicController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:24:20 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:33:19 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\MusicController.php on line 40.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\musicplayer\\app\\Controllers\\MusicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MusicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MusicController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\MusicController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:33:51 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:34:06 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:36:37 --> Call to a member function isValid() on null
+in APPPATH\Controllers\MusicController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:39:26 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\MusicController.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\musicplayer\\app\\Controllers\\MusicController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MusicController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MusicController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\MusicController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+ERROR - 2023-09-23 08:39:54 --> mysqli_sql_exception: Table 'musicplayer.musics' doesn't exist in C:\laragon\www\musicplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\musicplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `mu...', 0)
+#1 C:\laragon\www\musicplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mu...')
+#2 C:\laragon\www\musicplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mu...')
+#3 C:\laragon\www\musicplayer\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mu...', Array, false)
+#4 C:\laragon\www\musicplayer\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\musicplayer\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\musicplayer\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\musicplayer\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\musicplayer\app\Controllers\MusicController.php(27): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\musicplayer\system\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+#10 C:\laragon\www\musicplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+#11 C:\laragon\www\musicplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\musicplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\musicplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-09-23 08:39:54 --> Table 'musicplayer.musics' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `musics` (`filePath`) VALUES (:filePath:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MusicController.php(27): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+ERROR - 2023-09-23 08:40:34 --> mysqli_sql_exception: Table 'musicplayer.musics' doesn't exist in C:\laragon\www\musicplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\musicplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `mu...', 0)
+#1 C:\laragon\www\musicplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mu...')
+#2 C:\laragon\www\musicplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mu...')
+#3 C:\laragon\www\musicplayer\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mu...', Array, false)
+#4 C:\laragon\www\musicplayer\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\musicplayer\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\musicplayer\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\musicplayer\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\musicplayer\app\Controllers\MusicController.php(27): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\musicplayer\system\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+#10 C:\laragon\www\musicplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+#11 C:\laragon\www\musicplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\musicplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\musicplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-09-23 08:40:34 --> Table 'musicplayer.musics' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `musics` (`filePath`) VALUES (:filePath:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MusicController.php(27): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+ERROR - 2023-09-23 08:41:02 --> mysqli_sql_exception: Table 'musicplayer.musics' doesn't exist in C:\laragon\www\musicplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\musicplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `mu...', 0)
+#1 C:\laragon\www\musicplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mu...')
+#2 C:\laragon\www\musicplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mu...')
+#3 C:\laragon\www\musicplayer\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mu...', Array, false)
+#4 C:\laragon\www\musicplayer\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\musicplayer\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\musicplayer\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\musicplayer\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\musicplayer\app\Controllers\MusicController.php(27): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\musicplayer\system\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+#10 C:\laragon\www\musicplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+#11 C:\laragon\www\musicplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\musicplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\musicplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-09-23 08:41:02 --> Table 'musicplayer.musics' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `musics` (`filePath`) VALUES (:filePath:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MusicController.php(27): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+ERROR - 2023-09-23 08:41:20 --> mysqli_sql_exception: Table 'musicplayer.musics' doesn't exist in C:\laragon\www\musicplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\musicplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `mu...', 0)
+#1 C:\laragon\www\musicplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mu...')
+#2 C:\laragon\www\musicplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mu...')
+#3 C:\laragon\www\musicplayer\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mu...', Array, false)
+#4 C:\laragon\www\musicplayer\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\musicplayer\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\musicplayer\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\musicplayer\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\musicplayer\app\Controllers\MusicController.php(27): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\musicplayer\system\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+#10 C:\laragon\www\musicplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+#11 C:\laragon\www\musicplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\musicplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\musicplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-09-23 08:41:20 --> Table 'musicplayer.musics' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `musics` (`filePath`) VALUES (:filePath:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MusicController.php(27): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+ERROR - 2023-09-23 08:42:27 --> mysqli_sql_exception: Table 'musicplayer.tab;e_musics' doesn't exist in C:\laragon\www\musicplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\musicplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\laragon\www\musicplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\laragon\www\musicplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\laragon\www\musicplayer\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\laragon\www\musicplayer\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\musicplayer\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\musicplayer\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\musicplayer\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\musicplayer\app\Controllers\MusicController.php(27): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\musicplayer\system\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+#10 C:\laragon\www\musicplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+#11 C:\laragon\www\musicplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\musicplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\musicplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-09-23 08:42:27 --> Table 'musicplayer.tab;e_musics' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tab;e_musics` (`filePath`) VALUES (:filePath:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MusicController.php(27): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:49:50 --> Undefined array key "filePath"
+in APPPATH\Views\ViewMusic.php on line 122.
+ 1 APPPATH\Views\ViewMusic.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filePath"', 'C:\\laragon\\www\\musicplayer\\app\\Views\\ViewMusic.php', 122)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\musicplayer\\app\\Views\\ViewMusic.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ViewMusic', [], true)
+ 5 APPPATH\Controllers\MusicController.php(19): view('ViewMusic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:51:04 --> Undefined array key "filePath"
+in APPPATH\Views\ViewMusic.php on line 122.
+ 1 APPPATH\Views\ViewMusic.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filePath"', 'C:\\laragon\\www\\musicplayer\\app\\Views\\ViewMusic.php', 122)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\musicplayer\\app\\Views\\ViewMusic.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ViewMusic', [], true)
+ 5 APPPATH\Controllers\MusicController.php(19): view('ViewMusic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:52:05 --> Undefined array key "filePath"
+in APPPATH\Views\ViewMusic.php on line 122.
+ 1 APPPATH\Views\ViewMusic.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filePath"', 'C:\\laragon\\www\\musicplayer\\app\\Views\\ViewMusic.php', 122)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\musicplayer\\app\\Views\\ViewMusic.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ViewMusic', [], true)
+ 5 APPPATH\Controllers\MusicController.php(19): view('ViewMusic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:53:04 --> Undefined array key "musicId"
+in APPPATH\Views\ViewMusic.php on line 122.
+ 1 APPPATH\Views\ViewMusic.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "musicId"', 'C:\\laragon\\www\\musicplayer\\app\\Views\\ViewMusic.php', 122)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\musicplayer\\app\\Views\\ViewMusic.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ViewMusic', [], true)
+ 5 APPPATH\Controllers\MusicController.php(19): view('ViewMusic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:55:06 --> Undefined array key "musicId"
+in APPPATH\Views\ViewMusic.php on line 122.
+ 1 APPPATH\Views\ViewMusic.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "musicId"', 'C:\\laragon\\www\\musicplayer\\app\\Views\\ViewMusic.php', 122)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\musicplayer\\app\\Views\\ViewMusic.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ViewMusic', [], true)
+ 5 APPPATH\Controllers\MusicController.php(19): view('ViewMusic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:56:23 --> Undefined array key "filePath"
+in APPPATH\Views\ViewMusic.php on line 123.
+ 1 APPPATH\Views\ViewMusic.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filePath"', 'C:\\laragon\\www\\musicplayer\\app\\Views\\ViewMusic.php', 123)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\musicplayer\\app\\Views\\ViewMusic.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ViewMusic', [], true)
+ 5 APPPATH\Controllers\MusicController.php(19): view('ViewMusic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:58:23 --> syntax error, unexpected token "foreach"
+in APPPATH\Views\ViewMusic.php on line 121.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ViewMusic', [], true)
+ 3 APPPATH\Controllers\MusicController.php(19): view('ViewMusic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 08:58:47 --> Undefined array key "filePath"
+in APPPATH\Views\ViewMusic.php on line 122.
+ 1 APPPATH\Views\ViewMusic.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filePath"', 'C:\\laragon\\www\\musicplayer\\app\\Views\\ViewMusic.php', 122)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\musicplayer\\app\\Views\\ViewMusic.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ViewMusic', [], true)
+ 5 APPPATH\Controllers\MusicController.php(19): view('ViewMusic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
+CRITICAL - 2023-09-23 10:55:27 --> Undefined array key "filePath"
+in APPPATH\Views\ViewMusic.php on line 122.
+ 1 APPPATH\Views\ViewMusic.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "filePath"', 'C:\\laragon\\www\\musicplayer\\app\\Views\\ViewMusic.php', 122)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\musicplayer\\app\\Views\\ViewMusic.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ViewMusic', [], true)
+ 5 APPPATH\Controllers\MusicController.php(19): view('ViewMusic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-23 23:58:34 --> mysqli_sql_exception: Column 'filePath' cannot be null in C:\laragon\www\musicplayer\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\musicplayer\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ta...', 0)
+#1 C:\laragon\www\musicplayer\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ta...')
+#2 C:\laragon\www\musicplayer\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ta...')
+#3 C:\laragon\www\musicplayer\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ta...', Array, false)
+#4 C:\laragon\www\musicplayer\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\musicplayer\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\musicplayer\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\musicplayer\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\musicplayer\app\Controllers\MusicController.php(28): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\musicplayer\system\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+#10 C:\laragon\www\musicplayer\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+#11 C:\laragon\www\musicplayer\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\musicplayer\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\musicplayer\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2023-09-23 23:58:34 --> Column 'filePath' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `table_musics` (`filePath`) VALUES (:filePath:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\MusicController.php(28): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->upload()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\musicplayer\\public\\index.php')
